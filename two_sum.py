@@ -6,7 +6,7 @@ def two_sum(nums, target):
                 return [i, j]
     return []
 
-# Input from user
+# Input from userS
 nums = list(map(int, input("Enter numbers separated by space: ").split()))
 target = int(input("Enter target sum: "))
 result = two_sum(nums, target)
